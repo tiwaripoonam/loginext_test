@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68412EFA2A16223E002DA621 /* DealsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68412EF92A16223E002DA621 /* DealsHeaderView.swift */; };
+		686C747E2A1546E50017F3B5 /* RestaurantHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686C747D2A1546E50017F3B5 /* RestaurantHeaderView.swift */; };
+		689854792A13BA11009FBA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689854782A13BA11009FBA5B /* AppDelegate.swift */; };
+		6898547B2A13BA11009FBA5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898547A2A13BA11009FBA5B /* SceneDelegate.swift */; };
+		6898547D2A13BA11009FBA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898547C2A13BA11009FBA5B /* ViewController.swift */; };
+		689854802A13BA11009FBA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6898547E2A13BA11009FBA5B /* Main.storyboard */; };
+		689854832A13BA11009FBA5B /* LogiNext_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 689854812A13BA11009FBA5B /* LogiNext_Test.xcdatamodeld */; };
+		689854852A13BA13009FBA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689854842A13BA13009FBA5B /* Assets.xcassets */; };
+		689854882A13BA13009FBA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689854862A13BA13009FBA5B /* LaunchScreen.storyboard */; };
+		689854932A13BA9D009FBA5B /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689854922A13BA9D009FBA5B /* RestaurantModel.swift */; };
+		689854952A13BB03009FBA5B /* OfferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689854942A13BB03009FBA5B /* OfferModel.swift */; };
+		689854982A13BB2C009FBA5B /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689854972A13BB2C009FBA5B /* BannerModel.swift */; };
+		6898549A2A13BB3B009FBA5B /* FoodCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689854992A13BB3B009FBA5B /* FoodCategoryModel.swift */; };
+		6898549C2A13C50F009FBA5B /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898549B2A13C50F009FBA5B /* HomeModel.swift */; };
+		6898549E2A13C937009FBA5B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898549D2A13C937009FBA5B /* HomeViewModel.swift */; };
+		689854A02A13C9C7009FBA5B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6898549F2A13C9C7009FBA5B /* Constants.swift */; };
+		68B6EE9C2A13F20500213B76 /* RecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6EE9B2A13F20500213B76 /* RecommendCollectionViewCell.swift */; };
+		68B6EE9E2A13F23700213B76 /* OffersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6EE9D2A13F23700213B76 /* OffersCollectionViewCell.swift */; };
+		68B6EEA32A13FD0F00213B76 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B6EEA22A13FD0F00213B76 /* ColorExtensions.swift */; };
+		80D8BA865ED7EC6FA1C74E91 /* Pods_LogiNext_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A07FD92225A9A9583250388 /* Pods_LogiNext_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A07FD92225A9A9583250388 /* Pods_LogiNext_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogiNext_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DFB75A50FBA8B8EE97BF36 /* Pods-LogiNext Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogiNext Test.release.xcconfig"; path = "Target Support Files/Pods-LogiNext Test/Pods-LogiNext Test.release.xcconfig"; sourceTree = "<group>"; };
+		68412EF92A16223E002DA621 /* DealsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsHeaderView.swift; sourceTree = "<group>"; };
+		686C747D2A1546E50017F3B5 /* RestaurantHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantHeaderView.swift; sourceTree = "<group>"; };
+		689854752A13BA11009FBA5B /* LogiNext Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LogiNext Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689854782A13BA11009FBA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6898547A2A13BA11009FBA5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6898547C2A13BA11009FBA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6898547F2A13BA11009FBA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689854822A13BA11009FBA5B /* LogiNext_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogiNext_Test.xcdatamodel; sourceTree = "<group>"; };
+		689854842A13BA13009FBA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689854872A13BA13009FBA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689854892A13BA13009FBA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689854922A13BA9D009FBA5B /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		689854942A13BB03009FBA5B /* OfferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferModel.swift; sourceTree = "<group>"; };
+		689854972A13BB2C009FBA5B /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		689854992A13BB3B009FBA5B /* FoodCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategoryModel.swift; sourceTree = "<group>"; };
+		6898549B2A13C50F009FBA5B /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		6898549D2A13C937009FBA5B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6898549F2A13C9C7009FBA5B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		68B6EE9B2A13F20500213B76 /* RecommendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionViewCell.swift; sourceTree = "<group>"; };
+		68B6EE9D2A13F23700213B76 /* OffersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionViewCell.swift; sourceTree = "<group>"; };
+		68B6EEA22A13FD0F00213B76 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		A3735668AA53911E28F7ED90 /* Pods-LogiNext Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogiNext Test.debug.xcconfig"; path = "Target Support Files/Pods-LogiNext Test/Pods-LogiNext Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689854722A13BA11009FBA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D8BA865ED7EC6FA1C74E91 /* Pods_LogiNext_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13537C08856B067230B6E32D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A07FD92225A9A9583250388 /* Pods_LogiNext_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6898546C2A13BA11009FBA5B = {
+			isa = PBXGroup;
+			children = (
+				689854772A13BA11009FBA5B /* LogiNext Test */,
+				689854762A13BA11009FBA5B /* Products */,
+				900BB16C3BBE32E8D7E36F39 /* Pods */,
+				13537C08856B067230B6E32D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		689854762A13BA11009FBA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689854752A13BA11009FBA5B /* LogiNext Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689854772A13BA11009FBA5B /* LogiNext Test */ = {
+			isa = PBXGroup;
+			children = (
+				68B6EE9F2A13F9B000213B76 /* Extensions */,
+				689854912A13BA60009FBA5B /* Views */,
+				689854902A13BA57009FBA5B /* ViewModels */,
+				6898548F2A13BA46009FBA5B /* Models */,
+				689854782A13BA11009FBA5B /* AppDelegate.swift */,
+				6898547A2A13BA11009FBA5B /* SceneDelegate.swift */,
+				6898547C2A13BA11009FBA5B /* ViewController.swift */,
+				6898547E2A13BA11009FBA5B /* Main.storyboard */,
+				689854842A13BA13009FBA5B /* Assets.xcassets */,
+				689854862A13BA13009FBA5B /* LaunchScreen.storyboard */,
+				689854892A13BA13009FBA5B /* Info.plist */,
+				689854812A13BA11009FBA5B /* LogiNext_Test.xcdatamodeld */,
+				6898549F2A13C9C7009FBA5B /* Constants.swift */,
+			);
+			path = "LogiNext Test";
+			sourceTree = "<group>";
+		};
+		6898548F2A13BA46009FBA5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				689854922A13BA9D009FBA5B /* RestaurantModel.swift */,
+				689854942A13BB03009FBA5B /* OfferModel.swift */,
+				689854972A13BB2C009FBA5B /* BannerModel.swift */,
+				689854992A13BB3B009FBA5B /* FoodCategoryModel.swift */,
+				6898549B2A13C50F009FBA5B /* HomeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		689854902A13BA57009FBA5B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6898549D2A13C937009FBA5B /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		689854912A13BA60009FBA5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				689854A52A13EF73009FBA5B /* CollectionViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		689854A52A13EF73009FBA5B /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				68B6EE9B2A13F20500213B76 /* RecommendCollectionViewCell.swift */,
+				68B6EE9D2A13F23700213B76 /* OffersCollectionViewCell.swift */,
+				686C747D2A1546E50017F3B5 /* RestaurantHeaderView.swift */,
+				68412EF92A16223E002DA621 /* DealsHeaderView.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		68B6EE9F2A13F9B000213B76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				68B6EEA22A13FD0F00213B76 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		900BB16C3BBE32E8D7E36F39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3735668AA53911E28F7ED90 /* Pods-LogiNext Test.debug.xcconfig */,
+				10DFB75A50FBA8B8EE97BF36 /* Pods-LogiNext Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689854742A13BA11009FBA5B /* LogiNext Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6898548C2A13BA13009FBA5B /* Build configuration list for PBXNativeTarget "LogiNext Test" */;
+			buildPhases = (
+				88CE50F86A9F6631A37BB347 /* [CP] Check Pods Manifest.lock */,
+				689854712A13BA11009FBA5B /* Sources */,
+				689854722A13BA11009FBA5B /* Frameworks */,
+				689854732A13BA11009FBA5B /* Resources */,
+				5F88019E09A24F32CAEC7466 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LogiNext Test";
+			productName = "LogiNext Test";
+			productReference = 689854752A13BA11009FBA5B /* LogiNext Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6898546D2A13BA11009FBA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					689854742A13BA11009FBA5B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 689854702A13BA11009FBA5B /* Build configuration list for PBXProject "LogiNext Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6898546C2A13BA11009FBA5B;
+			productRefGroup = 689854762A13BA11009FBA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689854742A13BA11009FBA5B /* LogiNext Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689854732A13BA11009FBA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689854882A13BA13009FBA5B /* LaunchScreen.storyboard in Resources */,
+				689854852A13BA13009FBA5B /* Assets.xcassets in Resources */,
+				689854802A13BA11009FBA5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F88019E09A24F32CAEC7466 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiNext Test/Pods-LogiNext Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LogiNext Test/Pods-LogiNext Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LogiNext Test/Pods-LogiNext Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88CE50F86A9F6631A37BB347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogiNext Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689854712A13BA11009FBA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6898547D2A13BA11009FBA5B /* ViewController.swift in Sources */,
+				68412EFA2A16223E002DA621 /* DealsHeaderView.swift in Sources */,
+				689854A02A13C9C7009FBA5B /* Constants.swift in Sources */,
+				686C747E2A1546E50017F3B5 /* RestaurantHeaderView.swift in Sources */,
+				6898549A2A13BB3B009FBA5B /* FoodCategoryModel.swift in Sources */,
+				6898549C2A13C50F009FBA5B /* HomeModel.swift in Sources */,
+				68B6EE9E2A13F23700213B76 /* OffersCollectionViewCell.swift in Sources */,
+				6898549E2A13C937009FBA5B /* HomeViewModel.swift in Sources */,
+				689854792A13BA11009FBA5B /* AppDelegate.swift in Sources */,
+				689854982A13BB2C009FBA5B /* BannerModel.swift in Sources */,
+				689854952A13BB03009FBA5B /* OfferModel.swift in Sources */,
+				6898547B2A13BA11009FBA5B /* SceneDelegate.swift in Sources */,
+				68B6EEA32A13FD0F00213B76 /* ColorExtensions.swift in Sources */,
+				689854832A13BA11009FBA5B /* LogiNext_Test.xcdatamodeld in Sources */,
+				689854932A13BA9D009FBA5B /* RestaurantModel.swift in Sources */,
+				68B6EE9C2A13F20500213B76 /* RecommendCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6898547E2A13BA11009FBA5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6898547F2A13BA11009FBA5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689854862A13BA13009FBA5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689854872A13BA13009FBA5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6898548A2A13BA13009FBA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6898548B2A13BA13009FBA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6898548D2A13BA13009FBA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3735668AA53911E28F7ED90 /* Pods-LogiNext Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR697TVYC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LogiNext Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiwari..LogiNext-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6898548E2A13BA13009FBA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10DFB75A50FBA8B8EE97BF36 /* Pods-LogiNext Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VR697TVYC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LogiNext Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiwari..LogiNext-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689854702A13BA11009FBA5B /* Build configuration list for PBXProject "LogiNext Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6898548A2A13BA13009FBA5B /* Debug */,
+				6898548B2A13BA13009FBA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6898548C2A13BA13009FBA5B /* Build configuration list for PBXNativeTarget "LogiNext Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6898548D2A13BA13009FBA5B /* Debug */,
+				6898548E2A13BA13009FBA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		689854812A13BA11009FBA5B /* LogiNext_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				689854822A13BA11009FBA5B /* LogiNext_Test.xcdatamodel */,
+			);
+			currentVersion = 689854822A13BA11009FBA5B /* LogiNext_Test.xcdatamodel */;
+			path = LogiNext_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6898546D2A13BA11009FBA5B /* Project object */;
+}

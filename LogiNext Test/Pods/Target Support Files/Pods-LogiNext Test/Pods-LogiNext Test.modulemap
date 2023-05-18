@@ -1,0 +1,6 @@
+framework module Pods_LogiNext_Test {
+  umbrella header "Pods-LogiNext Test-umbrella.h"
+
+  export *
+  module * { export * }
+}
